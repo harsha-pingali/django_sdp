@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>space management</title>
+
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'main.css' %}">
+</head>
+
+
+
+<body>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ <form action = "/newuser/" method = "post">
+
+  <nav class="navbar navbar-expand-lg navbar-dark  bg-warning">
+      <a class="navbar-brand" href="#"><span style="color:black;font-weight:bold">SPACE MANAGER</span></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#" style="color:black">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" style="color:black">about us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" style="color:black">pricing</a>
+      </li>
+
+    </ul>
+  </div>
+</nav>
+<div class="login-pg">
+     <div class="container-fluid">
+         <div class="row">
+             <div class="col-12   d-flex flex-row justify-content-center">
+                 <div class="login-card p-2 bg-white">
+                     <h1 class="main-head text-center">SPACE MANAGER</h1>
+                     <div class="login-form-area p-3">
+                         <label style="font-size:20px;font-weight:bold">user id</label>
+                       <input type="text" name="userid" placeholder="enter user id">
+                      </div>
+                     <div class="login-form-area p-3">
+                         <label style="font-size:20px;font-weight:bold">password</label>
+                            <input type="password" name="password" placeholder="enter password">
+                     </div>
+                     <div class="mt-3 mb-3"><button class="btn-primary " style="border-radius:7px;width:80px" >submit</button></div>
+                     <p>new user?
+                         <a >register here</a>
+                     </p>
+
+               </div>
+                     </div>
+               </div>
+             </div>
+</div>
+
+ </form>
+</body>
+</html>
