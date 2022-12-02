@@ -57,3 +57,12 @@ left:5vw;
 width:1000px;
 height:500px;
 }
+.product-box
+{
+text-align: center;
+background-color: #ffffff;
+width:300px;
+border-radius: 9px;
+padding: 16px;
+margin: 15px;
+}
