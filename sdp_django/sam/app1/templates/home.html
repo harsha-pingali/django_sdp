@@ -12,13 +12,14 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
+
+  <nav class="navbar navbar-expand-lg navbar-dark ">
+  <a class="navbar-brand" href="#" style="font-family: 'Comic Sans MS'; font-size:24px;color : #F96815">Space Manager</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
+    <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
@@ -26,37 +27,128 @@
         <a class="nav-link" href="#">Features</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
+        <a class="nav-link" href="/profile/">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+          <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+          <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+          </svg>
+        </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        <a class="nav-link " href="/logout/">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z"/>
+              <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+            </svg>
+          </a>
       </li>
     </ul>
   </div>
 </nav>
+
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://th.bing.com/th/id/R.f1d315c12d048ce30be850d51848aa65?rik=6%2bKJMSPETeXP%2fQ&riu=http%3a%2f%2fww1.prweb.com%2fprfiles%2f2013%2f06%2f19%2f10848398%2fportland-interior-design-condo.jpg&ehk=K4rd%2baU2KQyWFPR%2fY%2frv%2fK7VBTZ%2frppw8Q9JNJFkQJw%3d&risl=&pid=ImgRaw&r=0" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://th.bing.com/th/id/OIP.qsxrEjMIRWiy95C6H7lHGAHaEK?pid=ImgDet&rs=1" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://static.theceomagazine.net/wp-content/uploads/2021/10/19125519/expensive-furniture_restoration-hardware.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
 <div class="container-fluid">
     <div class="row m-3 p-3">
-        <div class="col-12 col-md-6 col-lg-4">
-            <div class="product-box m-3 text-center" style="background-color:white;width:300px">
-                <img src="https://cdn.shopify.com/s/files/1/0044/1208/0217/products/ENZO-OFFICE-3FT-TABLE-BWN-CLOUND-ASH_LENZO3FTBLBWN-CAS_01_2000x.jpg?v=1629267295" width="200">
-                <h1>office table</h1>
+        <div class="col-12 col-md-6 col-lg-4 mb-3">
+            <div class="product-box mb-3 text-center h-100" style="background-color:white;width:300px" >
+
+               <img src="https://cdn.shopify.com/s/files/1/0044/1208/0217/products/ENZO-OFFICE-3FT-TABLE-BWN-CLOUND-ASH_LENZO3FTBLBWN-CAS_01_2000x.jpg?v=1629267295" width="200">
+                <h1>office tables</h1>
                 <button>view more</button>
+
             </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-4">
-            <div class="product-box m-3 text-center" style="background-color:white;width:300px">
-                <img src="https://cdn.shopify.com/s/files/1/0044/1208/0217/products/ENZO-OFFICE-3FT-TABLE-BWN-CLOUND-ASH_LENZO3FTBLBWN-CAS_01_2000x.jpg?v=1629267295" width="200">
-                <h1>office table</h1>
+
+
+        <div class="col-12 col-md-6 col-lg-4 mb-3">
+            <div class="product-box mb-3 text-center h-100" style="background-color:white;width:300px" >
+
+                <img src="https://th.bing.com/th/id/OIP.NKO_fYGyVDIYzIilI-w6LQHaFR?w=273&h=194&c=7&r=0&o=5&dpr=1.3&pid=1.7" width="200">
+                <h1>wardrobes</h1>
                 <button>view more</button>
+
             </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-4 ">
-            <div class="product-box m-3 text-center" style="background-color:white;width:300px" >
-                <img src="https://cdn.shopify.com/s/files/1/0044/1208/0217/products/ENZO-OFFICE-3FT-TABLE-BWN-CLOUND-ASH_LENZO3FTBLBWN-CAS_01_2000x.jpg?v=1629267295" width="200">
-                <h1>office table</h1>
+
+        <div class="col-12 col-md-6 col-lg-4 mb-3">
+            <div class="product-box mb-3 text-center h-100" style="background-color:white;width:300px" >
+
+                <img src="https://th.bing.com/th/id/OIP.p4C7-hoB3A1qyKnUKuHXhQHaHa?pid=ImgDet&rs=1" width="200">
+                <h1>dining table</h1>
                 <button>view more</button>
+
+            </div>
+
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mt-3">
+            <div class="product-box mt-3 text-center h-100" style="background-color:white;width:300px" >
+
+                <img src="https://www.bing.com/th?id=OIP.5-OjUTxEn6bAY0wFqf_A5wHaHZ&w=250&h=249&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" width="200">
+                <h1>office boards</h1>
+                <button>view more</button>
+
             </div>
         </div>
+
+        <div class="col-12 col-md-6 col-lg-4 mt-3">
+            <div class="product-box mt-3 text-center h-100" style="background-color:white;width:300px" >
+
+                <img src="https://th.bing.com/th/id/OIP.jAHcCmv21TeAbGQbTquWXAHaHa?pid=ImgDet&rs=1" width="200">
+                <h1>couch</h1>
+                <button>view more</button>
+
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 mt-3">
+            <div class="product-box mt-3 text-center h-100" style="background-color:white;width:300px" >
+
+                <img src="https://th.bing.com/th/id/OIP.WT2DQaLRUv5T8diJMdIivQHaFg?w=239&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" width="200">
+                <h1>book shelf</h1>
+                <button>view more</button>
+
+            </div>
+
+        </div>
+
     </div>
 
 </div>
